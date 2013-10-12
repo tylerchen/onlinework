@@ -1,0 +1,105 @@
+.form-inline .input-small {
+	margin-top: 5px;
+}
+
+.container,.navbar .container {
+	width: 860px;
+	margin: 0 auto;
+}
+
+.dropdown-menu {
+	min-width: auto;
+}
+
+/*
+ for nav bar start--
+*/
+#my-navbar .nav li a {
+	color: rgb(102, 102, 102);
+	padding: 10px 10px 11px;
+	font-size: 14px;
+}
+
+#my-navbar .brand {
+	color: rgb(114, 114, 114);
+	padding: 8px 20px 12px 0px;
+	font-size: 24px;
+	margin-left: 0px;
+}
+
+#my-navbar .loginform {
+	height: 35px;
+}
+
+/*
+ for nav bar end--
+*/
+.page-header {
+	margin: 20px 0 0px;
+}
+
+.nav {
+	margin-bottom: 0px;
+}
+
+.lvs-global .add-on {
+	width: 190px;
+	text-align: right;
+}
+
+.fast-config:after {
+	content: "LVS - Fast Configure";
+}
+
+.global-settings:after {
+	content: "LVS - Global Settings";
+}
+
+.redundancy:after {
+	content: "LVS - Redundancy";
+}
+
+.ssh-lvs:after {
+	content: "SSH - LVS";
+}
+
+.ssh-realserver:after {
+	content: "SSH - Real Server";
+}
+
+.ssh-virtual-server:after {
+	content: "SSH - Virtual Server";
+}
+
+.view-detail:after {
+	content: "LVS - View Detail";
+}
+
+.lvs-virtual .add-on {
+	width: 110px;
+	text-align: right;
+}
+
+.lvs-virtual .add-on-fixsend {
+	width: 80px;
+	text-align: right;
+}
+
+.lvs-virtual .add-on-last {
+	width: auto;
+	text-align: right;
+}
+
+.fast-config .fast-config-add-on-60 {
+	width: 60px;
+	text-align: right;
+}
+
+.fast-config .fast-config-add-on-80 {
+	width: 80px;
+	text-align: right;
+}
+
+input.fast-config-long-text {
+	width: 192px;
+}
