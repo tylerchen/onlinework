@@ -23,7 +23,6 @@ message.body=
 			<div class="nav-collapse">
 				<ul class="nav">
 					<li class="divider-vertical"></li>
-					<li class="<%=request.getRequestURI().indexOf("configure.jsp")<0?"active":""%>"><a href="${rs[0]}/">Home</a></li>
 					<li class="divider-vertical"></li>
 					<!-- <li class="divider-vertical"></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
@@ -56,7 +55,6 @@ message.body=
 			<div class="page-header">
 				<h1>Monitor Pannel</h1>
 					<h1>Online Work!!!</h1>
-					<form action="${uri}" method="POST"><input name="aaa" type="text"></form>
 			</div>
 		</div>
 		<div class="row">
